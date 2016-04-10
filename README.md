@@ -11,8 +11,8 @@ Search function to match cities from user query
  2. Move into the Autocomplete-search directory
  3. run `$ npm install`
  4. run `$ npm install webpack-dev-server -g`
- 3. run `$ webpack-dev-server --progress --colors`
- 4. navigate to [localhost server](http://localhost:8080/webpack-dev-server/) in browser 
+ 5. run `$ webpack-dev-server --progress --colors`
+ 6. navigate to [localhost server](http://localhost:8080/webpack-dev-server/) in browser 
 
 ####Thought process: 
 
