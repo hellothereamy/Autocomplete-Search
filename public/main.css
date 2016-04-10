@@ -1,0 +1,29 @@
+html body{
+	font-family: Roboto, sans-serif;
+}
+.center{
+	margin: 0 auto;
+	width:50%;
+	text-align: center;
+}
+
+.header{
+	margin-top:15px;
+}
+
+html {
+	position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; 
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    background-image: url("assets/skyline.png");
+    background-repeat: repeat-x;
+}
