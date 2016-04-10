@@ -1,21 +1,20 @@
 # Autocomplete-Search
-Created by: 
+####Created by:
   Amy Tran 
 
-Description: 
+####Description:
+Search function to match cities from user query
 
-  Search function to match cities from user query
+####How to run:
 
-How to run:
-
- 1. $ git clone Autocomplete-Search repo 
+ 1.` $ git clone Autocomplete-Search` repo 
  2. Move into the Autocomplete-search directory
- 3. run $ npm install
- 4. run $ npm install webpack-dev-server -g
- 3. run $ webpack-dev-server --progress --colors
- 4. navigate to http://localhost:8080/webpack-dev-server/ in browser 
+ 3. run `$ npm install`
+ 4. run `$ npm install webpack-dev-server -g`
+ 3. run `$ webpack-dev-server --progress --colors`
+ 4. navigate to [localhost server](http://localhost:8080/webpack-dev-server/) in browser 
 
-Thought process: 
+####Thought process: 
 
 Needed to capture user's query by listening to the onChange event 
 Capture user's query by grabbing it from the DOM using jQuery
