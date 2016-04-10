@@ -3,7 +3,7 @@
   Amy Tran 
 
 ####Description:
-Search function to match cities from user query
+  Search function to match cities from user query
 
 ####How to run:
 1. ` $ git clone Autocomplete-Search` repo
