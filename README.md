@@ -11,7 +11,8 @@ How to run:
  1. $ git clone Autocomplete-Search repo 
  2. Move into the Autocomplete-search directory
  3. run $ npm install
- 3. run webpack-dev-server --progress --colors
+ 4. run $ npm install webpack-dev-server -g
+ 3. run $ webpack-dev-server --progress --colors
  4. navigate to http://localhost:8080/webpack-dev-server/ in browser 
 
 Thought process: 
