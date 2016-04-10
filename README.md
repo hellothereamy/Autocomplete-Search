@@ -3,9 +3,11 @@ Created by:
   Amy Tran 
 
 Description: 
+
   Search function to match cities from user query
 
 How to run:
+
  1. $ git clone Autocomplete-Search repo 
  2. Move into the Autocomplete-search directory
  3. run $ npm install
@@ -13,6 +15,7 @@ How to run:
  4. navigate to http://localhost:8080/webpack-dev-server/ in browser 
 
 Thought process: 
+
 Needed to capture user's query by listening to the onChange event 
 Capture user's query by grabbing it from the DOM using jQuery
 Clean query by trimming spaces and converting query to lower case 
