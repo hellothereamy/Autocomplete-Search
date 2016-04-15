@@ -27,11 +27,10 @@ var StyleSheet={
 };
 
 var SearchBar = React.createClass({
-	
 	getInitialState: function() {
         return {
         	query:"",
-        	matchedCities:["hello"]
+        	matchedCities:[]
         };
       },
 
@@ -45,6 +44,7 @@ var SearchBar = React.createClass({
 		console.log("componentDidUpdate");
 	},
 	matchQuery: function(query){
+		var match = [];
 		this.setState({query: query});
 		var userQuery= query;
 		console.log(userQuery);
@@ -65,15 +65,11 @@ var SearchBar = React.createClass({
 					//substring cities in array to match the length of the user's query
 				var temp = cities[i].substring(0,queryLength);
 				if( temp === userQuery) {
+					match.push(cities[i]);
 					found=true;
-					this.setState({matchedCities:cities[i]});
-					// this.setState(function(previousState, currentProps){
-					// 	return { matchedCities: previousState.matchedCities.push(cities[i]) };
-					// });
-				
-					
 				}
 			}
+			this.setState({matchedCities:match});
 			if(!found){
 				this.setState({matchedCities: ["No results found"]});
 			}
