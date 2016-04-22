@@ -39,9 +39,6 @@ var SearchBar = React.createClass({
      	this.matchQuery(query);
 			// Capture user query and query length trim spaces and lower case 
 
-		},
-	componentDidUpdate: function(){ // no restriction on set state 
-		console.log("componentDidUpdate");
 	},
 	matchQuery: function(query){
 		var match = [];
